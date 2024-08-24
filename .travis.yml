@@ -9,6 +9,7 @@ script:
   - cover -delete
   - perl -MDevel::Cover t/compile.t
   - perl -MDevel::Cover t/engine.t
+  - perl -MDevel::Cover t/plugins.t
   - perl -MDevel::Cover t/util-wrap.t
 after_success:
   - cover -report codecov
