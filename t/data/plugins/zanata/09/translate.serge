@@ -1,7 +1,0 @@
-sync
-{
-    ts
-    {
-        plugin                      zanata
-    }
-}
