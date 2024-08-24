@@ -585,8 +585,8 @@ sub ttx_export_callback {
         my $chunks = get_wordcount_chunks($string);
         my $string_ttx = make_final_xml($chunks);
 
-        #my $translation_chunks = get_wordcount_chunks($translation);
-        #my $translation_ttx = make_final_xml($translation_chunks);
+        my $translation_chunks = get_wordcount_chunks($translation);
+        my $translation_ttx = make_final_xml($translation_chunks);
 
         my $string_html = make_final_xml($chunks, 1); # 1:for_html
 
@@ -607,7 +607,7 @@ sub ttx_export_callback {
 
         $$ttxref .= <<__END__;
 <ut Type="standalone" Style="external" RightEdge="angle">$id</ut>$hint_ttx$context_ttx
-<Tu Origin="undefined"><Tuv Lang="EN-US">$string_ttx</Tuv><Tuv Lang="$locale">$string_ttx</Tuv></Tu>
+<Tu Origin="undefined"><Tuv Lang="EN-US">$string_ttx</Tuv><Tuv Lang="$locale">$translation_ttx</Tuv></Tu>
 __END__
 
         $$htmlref .= <<__END__;
