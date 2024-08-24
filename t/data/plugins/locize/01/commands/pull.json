@@ -1,0 +1,10 @@
+[
+   {
+      "command" : "locize download --path files/resources/es --language es --config-path ./files/config/serge_test.cfg --format xliff12",
+      "env" : {}
+   },
+   {
+      "command" : "locize download --path files/resources/fr-CA --language fr-CA --config-path ./files/config/serge_test.cfg --format xliff12",
+      "env" : {}
+   }
+]

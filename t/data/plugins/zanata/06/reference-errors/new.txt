@@ -1,0 +1,1 @@
+Data validation failed for plugin 'Serge::Sync::Plugin::TranslationService::zanata': 'push_type', which is set to invalid, is not one of the valid options: 'source' or 'both'

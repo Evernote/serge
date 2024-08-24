@@ -1,0 +1,11 @@
+[
+   {
+      "command" : "lingohub resource:up resources/en/strings.en.xliff --locale 'en' --project 'SergeTest'"
+   },
+   {
+      "command" : "lingohub resource:up resources/es/strings.es.xliff --locale 'es' --project 'SergeTest'"
+   },
+   {
+      "command" : "lingohub resource:up resources/fr-ca/strings.fr-ca.xliff --locale 'fr-ca' --project 'SergeTest'"
+   }
+]

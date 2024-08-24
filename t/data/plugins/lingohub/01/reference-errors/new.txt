@@ -1,0 +1,1 @@
+Data validation failed for plugin 'Serge::Sync::Plugin::TranslationService::lingohub': 'root_directory', which is set to './not-found', does not point to a valid folder.

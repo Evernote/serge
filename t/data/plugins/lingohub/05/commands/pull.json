@@ -1,0 +1,11 @@
+[
+   {
+      "command" : "lingohub resource:down --locale 'en' --directory resources/en --all --project 'SergeTest'"
+   },
+   {
+      "command" : "lingohub resource:down --locale 'es' --directory resources/es --all --project 'SergeTest'"
+   },
+   {
+      "command" : "lingohub resource:down --locale 'fr-ca' --directory resources/fr-ca --all --project 'SergeTest'"
+   }
+]

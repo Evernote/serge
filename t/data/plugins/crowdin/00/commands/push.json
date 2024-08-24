@@ -1,0 +1,8 @@
+[
+   {
+      "command" : "crowdin upload sources --config ./files/config/serge_test.yml"
+   },
+   {
+      "command" : "crowdin upload translations --config ./files/config/serge_test.yml"
+   }
+]

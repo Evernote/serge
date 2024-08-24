@@ -1,0 +1,1 @@
+Data validation failed for plugin 'Serge::Sync::Plugin::TranslationService::zanata': 'project_config', which is set to './files/config/no-found.xml', does not point to a valid file.

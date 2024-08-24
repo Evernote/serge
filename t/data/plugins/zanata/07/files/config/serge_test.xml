@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config xmlns="http://zanata.org/namespace/config/">
+    <url>http://localhost/zanata/</url>
+    <project>Test</project>
+    <project-version>Test-test</project-version>
+    <project-type>file</project-type>
+    <src-dir>./files/source</src-dir>
+    <trans-dir>./files/target</trans-dir>
+    <rules>
+        <rule pattern="**/*.xliff">{locale_with_underscore}/{path}/{filename}.xliff</rule>
+    </rules>
+</config>

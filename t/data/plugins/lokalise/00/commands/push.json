@@ -1,0 +1,10 @@
+[
+   {
+      "env" : {},
+      "command" : "lokalise2  --config ./files/config/serge_test.cfg file upload --file files/resources/de/file.xliff --lang-iso de"
+   },
+   {
+      "env" : {},
+      "command" : "lokalise2  --config ./files/config/serge_test.cfg file upload --file files/resources/es/file.xliff --lang-iso es"
+   }
+]

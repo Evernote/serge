@@ -1,0 +1,18 @@
+sync
+{
+    ts
+    {
+        plugin                      zanata
+
+        data
+        {
+            project_config         ./files/config/serge_test.xml
+            use_cache               NO
+            purge_cache             NO
+            debug                   NO
+            errors                  NO
+            disable_ssl_cert        NO
+            dry_run                 NO
+        }
+    }
+}

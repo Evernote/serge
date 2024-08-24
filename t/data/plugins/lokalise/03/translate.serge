@@ -1,0 +1,14 @@
+sync
+{
+    ts
+    {
+        plugin                      lokalise
+
+        data
+        {
+            resource_directory       ./files/resources
+            file_format              xliff
+            languages                de es fr-ca
+        }
+    }
+}

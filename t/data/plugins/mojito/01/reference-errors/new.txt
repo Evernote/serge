@@ -1,0 +1,1 @@
+Data validation failed for plugin 'Serge::Sync::Plugin::TranslationService::mojito': 'application_properties', which is set to './files/config/not-found.properties', does not point to a valid file.

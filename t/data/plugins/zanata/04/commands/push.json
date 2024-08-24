@@ -1,0 +1,5 @@
+[
+   {
+      "command" : "zanata-cli --batch-mode push --push-type source --project-config ./files/config/serge_test.xml"
+   }
+]

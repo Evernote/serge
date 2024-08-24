@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.com
+
+[serge_test.test-xliff]
+file_filter = target/<lang>/test.xliff
+minimum_perc = 0
+source_file = source/test.xliff
+source_lang = en
+type = XLIFF
+

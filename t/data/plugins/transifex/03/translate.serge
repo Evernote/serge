@@ -1,0 +1,14 @@
+sync
+{
+    ts
+    {
+        plugin                      transifex
+
+        data
+        {
+            root_directory          ./files
+        }
+    }
+
+    langs                           es fr-ca
+}

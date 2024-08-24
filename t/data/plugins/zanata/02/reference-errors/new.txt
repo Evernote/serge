@@ -1,0 +1,1 @@
+Data validation failed for plugin 'Serge::Sync::Plugin::TranslationService::zanata': 'user_config', which is set to './files/config/invalid-zanata.ini', does not point to a valid file.

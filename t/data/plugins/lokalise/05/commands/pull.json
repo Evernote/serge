@@ -1,0 +1,6 @@
+[
+   {
+      "command" : "lokalise2  --config ./files/config/serge_test.cfg file download --format xliff --unzip-to ./files/resources",
+      "env" : {}
+   }
+]

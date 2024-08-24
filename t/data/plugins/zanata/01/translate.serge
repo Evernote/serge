@@ -1,0 +1,14 @@
+sync
+{
+    ts
+    {
+        plugin                      zanata
+
+        data
+        {
+            project_config         ./files/config/no-found.xml
+            user_config            ./files/config/no-found.ini
+            push_type              both
+        }
+    }
+}

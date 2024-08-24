@@ -1,0 +1,14 @@
+sync
+{
+    ts
+    {
+        plugin                      STRING
+        data
+        {
+            *                       DATA
+        }
+    }
+
+    langs                           ARRAY
+}
+

@@ -1,0 +1,17 @@
+sync
+{
+    ts
+    {
+        plugin                      zanata
+
+        data
+        {
+            project_config         ./files/config/serge_test.xml
+            user_config            ./files/config/zanata.ini
+            push_type              both
+            cache_dir              ./files/cache
+        }
+    }
+
+    langs                           es fr-ca
+}

@@ -1,0 +1,15 @@
+sync
+{
+    ts
+    {
+        plugin                      zanata
+
+        data
+        {
+            project_config         ./files/config/serge_test.xml
+            push_type              both
+            cache_dir              ./files/cache
+            file_types             xliff
+        }
+    }
+}

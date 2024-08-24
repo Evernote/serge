@@ -1,0 +1,14 @@
+sync
+{
+    ts
+    {
+        plugin                      phrase
+
+        data
+        {
+            config_file              ./files/config/serge_test.yml
+            wait_for_uploads         NO
+            verbose                  YES
+        }
+    }
+}

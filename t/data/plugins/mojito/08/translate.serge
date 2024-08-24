@@ -1,0 +1,17 @@
+sync
+{
+    ts
+    {
+        plugin                      mojito
+
+        data
+        {
+            repository_name              SergeTest
+            application_properties  ./files/config/serge_test.properties
+            source_files_path       ./files/source
+            localized_files_path    ./files/not-found-target
+            file_type               XLIFF
+            destination_locales     de es fr-ca
+        }
+    }
+}

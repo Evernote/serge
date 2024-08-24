@@ -1,0 +1,14 @@
+sync
+{
+    ts
+    {
+        plugin                      phrase
+
+        data
+        {
+            config_file              ./files/config/not-found.yml
+            wait_for_uploads         YES
+            verbose                  NO
+        }
+    }
+}

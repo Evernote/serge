@@ -1,0 +1,13 @@
+sync
+{
+    ts
+    {
+        plugin                      zanata
+
+        data
+        {
+            project_config         ./files/config/serge_test.xml
+            push_type              invalid
+        }
+    }
+}

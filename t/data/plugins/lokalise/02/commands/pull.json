@@ -1,0 +1,6 @@
+[
+   {
+      "env" : {},
+      "command" : "lokalise  --config ./files/config/serge_test.cfg export --type xliff --use_original 1 --unzip_to ./files/resources"
+   }
+]
