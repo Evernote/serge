@@ -1,0 +1,21 @@
+sync
+{
+    ts
+    {
+        plugin                      mojito
+
+        data
+        {
+            repository_name              SergeTest
+            application_properties  ./files/config/serge_test.properties
+            source_files_path       ./files/source
+            localized_files_path    ./files/target
+            import_translations     NO
+            file_type               PO
+            destination_locales     pt-br pt-pt
+            inheritance_mode        USE_PARENT
+            status_pull             ACCEPTED_OR_NEEDS_REVIEW
+            status_equal_target     TRANSLATION_NEEDED
+        }
+    }
+}

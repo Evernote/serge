@@ -1,0 +1,12 @@
+sync
+{
+    ts
+    {
+        plugin                      transifex
+
+        data
+        {
+            root_directory          ./not-found
+        }
+    }
+}

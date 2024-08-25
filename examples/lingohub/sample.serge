@@ -1,0 +1,57 @@
+sync
+{
+    ts
+    {
+        plugin                      lingohub
+
+        data
+        {
+            project                 Sample
+            root_directory          ./files
+            resource_directory      resources
+            target_languages        de es fr-ca
+        }
+    }
+
+    vcs
+    {
+        plugin                      git
+
+        data
+        {
+            local_path              %ENV:SERGE_DATA_DIR%/my_project
+            remote_path             ssh://l10n@git.example.com/myrepo
+            name                    L10N Robot
+            email                   l10n-robot@example.com
+        }
+    }
+}
+
+jobs
+{
+    {
+        id                          lingohub.sample.job
+
+        source_language             en
+        destination_languages       de ja fr-ca
+
+        source_match                \.properties$
+        source_exclude              _[a-zA-Z][a-zA-Z]\.properties$
+
+        parser
+        {
+            plugin                  parse_properties
+        }
+
+		serializer
+		{
+			plugin                  serialize_xliff
+		}
+
+        db_source                   DBI:SQLite:dbname=./translate.db3
+        db_namespace                my_project
+
+        ts_file_path                ./files/resources/%LOCALE%/%PATH%%NAME%.xliff
+        output_file_path            %ENV:SERGE_DATA_DIR%/my_project/%PATH%%NAME%_%LOCALE%.%EXT%
+    }
+}

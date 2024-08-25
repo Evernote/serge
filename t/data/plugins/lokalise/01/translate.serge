@@ -1,0 +1,14 @@
+sync
+{
+    ts
+    {
+        plugin                      lokalise
+
+        data
+        {
+            config_file              ./files/config/not_found.cfg
+            resource_directory       ./files/resources
+            languages                de es fr-ca
+        }
+    }
+}

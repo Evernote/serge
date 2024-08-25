@@ -1,0 +1,76 @@
+sync
+{
+    ts
+    {
+        plugin                      crowdin
+
+        data
+        {
+            config_file              ./config/sample.yml
+        }
+    }
+
+    vcs
+    {
+        plugin                      git
+
+        data
+        {
+            local_path              %ENV:SERGE_DATA_DIR%/my_project
+            remote_path             ssh://l10n@git.example.com/myrepo
+            name                    L10N Robot
+            email                   l10n-robot@example.com
+        }
+    }
+}
+
+jobs
+{
+    {
+        id                          crowdin.sample.job
+
+        source_language             en
+        destination_languages       de ja fr-ca source
+
+        source_match                \.properties$
+        source_exclude              _[a-zA-Z][a-zA-Z]\.properties$
+
+        parser
+        {
+            plugin                  parse_properties
+        }
+
+		serializer
+		{
+			plugin                  serialize_xliff
+		}
+
+        db_source                   DBI:SQLite:dbname=./translate.db3
+        db_namespace                my_project
+
+        callback_plugins
+        {
+            :source_ts_file_path
+            {
+                plugin              replace_strings
+                phase               rewrite_absolute_ts_file_path
+
+                data
+                {
+                    if
+                    {
+                        lang_matches             ^source$
+
+                        then
+                        {
+                            replace                      \/target\/source  \/source
+                        }
+                    }
+                }
+            }
+        }
+
+        ts_file_path                ./files/resources/target/%LOCALE%/%PATH%%NAME%.xliff
+        output_file_path            %ENV:SERGE_DATA_DIR%/my_project/%PATH%%NAME%_%LOCALE%.%EXT%
+    }
+}

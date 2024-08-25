@@ -1,0 +1,14 @@
+sync
+{
+    ts
+    {
+        plugin                      locize
+
+        data
+        {
+            config_file              ./files/config/serge_test.cfg
+            path                     ./files/resources
+            format                   xliff12
+        }
+    }
+}

@@ -1,0 +1,8 @@
+[
+   {
+      "command" : "mojito push -r SergeTest -s ./files/source -sl fr -ft PO"
+   },
+   {
+      "command" : "mojito import -t ./files/target --status-equal-target SKIPPED -r SergeTest -s ./files/source -sl fr --locale-mapping de:de-DE,es:es-ES,en:en-US -ft PO"
+   }
+]

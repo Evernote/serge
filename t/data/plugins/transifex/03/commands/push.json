@@ -1,0 +1,5 @@
+[
+   {
+      "command" : "tx push --source --translations --root ./files --language es,fr_CA"
+   }
+]

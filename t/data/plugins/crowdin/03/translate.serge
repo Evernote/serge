@@ -1,0 +1,14 @@
+sync
+{
+    ts
+    {
+        plugin                      crowdin
+
+        data
+        {
+            config_file              ./files/config/serge_test.yml
+        }
+    }
+
+    langs                           es fr-ca
+}

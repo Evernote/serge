@@ -1,0 +1,14 @@
+sync
+{
+    ts
+    {
+        plugin                      lingohub
+
+        data
+        {
+            root_directory          ./not-found
+            resource_directory      resources
+            target_languages     de es fr-ca
+        }
+    }
+}

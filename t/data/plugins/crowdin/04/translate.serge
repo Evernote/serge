@@ -1,0 +1,15 @@
+sync
+{
+    ts
+    {
+        plugin                      crowdin
+
+        data
+        {
+            config_file              ./files/config/serge_test.yml
+            import_duplicates        YES
+            import_eq_suggestions    YES
+            auto_approve_imported    YES
+        }
+    }
+}

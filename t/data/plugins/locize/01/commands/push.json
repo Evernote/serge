@@ -1,0 +1,10 @@
+[
+   {
+      "command" : "locize sync --path ./files/resources --language es --update-values true --reference-language-only false --config-path ./files/config/serge_test.cfg --format xliff12",
+      "env" : {}
+   },
+   {
+      "command" : "locize sync --path ./files/resources --language fr-CA --update-values true --reference-language-only false --config-path ./files/config/serge_test.cfg --format xliff12",
+      "env" : {}
+   }
+]

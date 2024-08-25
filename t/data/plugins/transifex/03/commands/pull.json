@@ -1,0 +1,5 @@
+[
+   {
+      "command" : "tx pull --root ./files --language es,fr_CA"
+   }
+]

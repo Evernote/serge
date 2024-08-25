@@ -1,0 +1,5 @@
+[
+   {
+      "command" : "mojito pull --inheritance-mode REMOVE_UNTRANSLATED -t ./files/target --status ACCEPTED -r SergeTest -s ./files/source --spring.config.location=./files/config/serge_test.properties --locale-mapping de:de-DE,es:es-ES,fr_CA:fr-CA"
+   }
+]

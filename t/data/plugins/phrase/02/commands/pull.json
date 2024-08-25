@@ -1,0 +1,8 @@
+[
+   {
+      "command" : "phrase pull --verbose ",
+      "env" : {
+         "PHRASEAPP_CONFIG" : "./files/config/serge_test.yml"
+      }
+   }
+]

@@ -1,0 +1,5 @@
+[
+   {
+      "command" : "mojito push -r SergeTest -s ./files/source --spring.config.location=./files/config/serge_test.properties -ft PO"
+   }
+]

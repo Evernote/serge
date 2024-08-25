@@ -1,0 +1,1 @@
+Data validation failed for plugin 'Serge::Sync::Plugin::TranslationService::crowdin': 'config_file', which is set to './files/config/not-found.yml', does not point to a valid file.

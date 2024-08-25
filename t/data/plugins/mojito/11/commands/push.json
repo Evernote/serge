@@ -1,0 +1,8 @@
+[
+   {
+      "command" : "mojito push -r SergeTest -s ./files/source --spring.config.location=./files/config/serge_test.properties"
+   },
+   {
+      "command" : "mojito import -t ./files/target -r SergeTest -s ./files/source --spring.config.location=./files/config/serge_test.properties --locale-mapping es:es-ES,fr_CA:fr-CA"
+   }
+]

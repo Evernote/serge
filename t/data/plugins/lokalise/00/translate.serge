@@ -1,0 +1,15 @@
+sync
+{
+    ts
+    {
+        plugin                      lokalise
+
+        data
+        {
+            config_file              ./files/config/serge_test.cfg
+            resource_directory       ./files/resources
+            file_format              xliff
+            languages                de es fr-ca
+        }
+    }
+}

@@ -1,0 +1,6 @@
+[
+   {
+      "command" : "locize download --path ./files/resources --config-path ./files/config/serge_test.cfg --format xliff12",
+      "env" : {}
+   }
+]

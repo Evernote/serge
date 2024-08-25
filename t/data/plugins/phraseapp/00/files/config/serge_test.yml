@@ -1,0 +1,20 @@
+phrase:
+  push:
+    sources:
+    - file: ./files/source/<tag>.po
+      params:
+        file_format: gettext
+        update_translations: true
+        skip_upload_tags: true
+        locale_id: en
+    - file: ./files/target/<locale_name>/<tag>.po
+      params:
+        file_format: gettext
+        update_translations: true
+        skip_upload_tags: true
+  pull:
+    targets:
+    - file: ./files/target/<locale_name>/<tag>.po
+      params:
+        file_format: gettext
+        tag: "test"

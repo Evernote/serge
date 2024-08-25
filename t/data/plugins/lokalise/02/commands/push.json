@@ -1,0 +1,14 @@
+[
+   {
+      "command" : "lokalise  --config ./files/config/serge_test.cfg import --file files/resources/de/*.xliff --lang_iso de --replace 1 --fill_empty 0 --distinguish 1",
+      "env" : {}
+   },
+   {
+      "command" : "lokalise  --config ./files/config/serge_test.cfg import --file files/resources/es/*.xliff --lang_iso es --replace 1 --fill_empty 0 --distinguish 1",
+      "env" : {}
+   },
+   {
+      "env" : {},
+      "command" : "lokalise  --config ./files/config/serge_test.cfg import --file files/resources/fr-ca/*.xliff --lang_iso fr-CA --replace 1 --fill_empty 0 --distinguish 1"
+   }
+]

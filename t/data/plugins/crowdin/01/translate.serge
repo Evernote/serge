@@ -1,0 +1,13 @@
+sync
+{
+    ts
+    {
+        plugin                      crowdin
+
+        data
+        {
+            config_file              ./files/config/not-found.yml
+            upload_translations      YES
+        }
+    }
+}

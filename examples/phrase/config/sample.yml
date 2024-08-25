@@ -1,0 +1,14 @@
+phrase:
+  push:
+    sources:
+    - file: ./files/resources/<locale_name>/<tag>.xliff
+      params:
+        file_format: xlf
+        update_translations: true
+        skip_upload_tags: true
+  pull:
+    targets:
+    - file: ./files/resources/<locale_name>/<tag>.xliff
+      params:
+        file_format: xlf
+        tag: "test"

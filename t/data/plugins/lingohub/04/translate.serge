@@ -1,0 +1,14 @@
+sync
+{
+    ts
+    {
+        plugin                      lingohub
+
+        data
+        {
+            project                 SergeTest
+            root_directory          ./files
+            resource_directory      resources
+        }
+    }
+}

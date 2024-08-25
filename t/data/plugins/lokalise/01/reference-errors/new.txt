@@ -1,0 +1,1 @@
+Data validation failed for plugin 'Serge::Sync::Plugin::TranslationService::lokalise': 'config_file', which is set to './files/config/not_found.cfg', does not point to a valid file.

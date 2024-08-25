@@ -1,0 +1,12 @@
+sync
+{
+    ts
+    {
+        plugin                      weblate
+
+        data
+        {
+            root_directory          ./not-found
+        }
+    }
+}

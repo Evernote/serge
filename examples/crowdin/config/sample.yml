@@ -1,0 +1,21 @@
+
+"project_id" : "1" # open project page and go to Integrations > API section
+"api_token" : "1234567890abcdefghklmnoprstuvxwy" # open profile settings and go to API > New Token > create Token
+"base_path" : "./files/resources"
+"base_url": "https://api.crowdin.com" # https://{organization-name}.crowdin.com for Crowdin Enterprise
+
+"preserve_hierarchy": false
+
+files: [
+{
+  "source" : "source/*.xliff",
+
+  "translation" : "target/%two_letters_code%/%original_file_name%",
+
+  "languages_mapping" : {
+    "two_letters_code" : {
+      "crowdin_language_code" : "local_name"
+    }
+  },
+}
+]

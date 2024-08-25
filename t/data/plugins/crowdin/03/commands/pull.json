@@ -1,0 +1,5 @@
+[
+   {
+      "command" : "crowdin download -l=es -l=fr-CA --config ./files/config/serge_test.yml"
+   }
+]
