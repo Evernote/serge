@@ -54,6 +54,7 @@ sub run {
         print "\n*** $_ ***\n\n";
 
         my $config = Serge::Config->new($_);
+        $config->chdir();
         my $processor = Serge::Engine::Processor->new($importer, $config);
         $processor->run();
 
